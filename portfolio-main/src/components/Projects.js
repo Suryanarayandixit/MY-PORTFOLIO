@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: 'Weather App',
       description: 'Forecasts with style.',
-      tags: ['React', 'API', 'CSS'],
+      tags: ['Html', 'API', 'CSS','js'],
       liveLink: null,
       githubLink: 'https://github.com/Suryanarayandixit/Weather',
       image: 'weather website.jpeg'
