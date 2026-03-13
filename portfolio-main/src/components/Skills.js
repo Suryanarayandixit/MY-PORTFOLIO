@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SiTypescript, SiMongodb, SiExpress, SiPostgresql, SiGraphql, SiNextdotjs, SiPrisma } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
 import { BiKey } from 'react-icons/bi';
 import {
-  FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaPython, FaLayerGroup
+  FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub,  FaLayerGroup
 } from 'react-icons/fa';
 
 const Skills = () => {
@@ -13,14 +13,6 @@ const Skills = () => {
     { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
     { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
     { name: 'React', icon: FaReact, color: '#61DAFB' },
-    // { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
-    // { name: 'Express', icon: SiExpress, color: '#fff' },
-    // { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
-    // { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
-    // { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
-    // { name: 'Prisma ORM', icon: SiPrisma, color: '#2D3748' },
-    // { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
-    // { name: 'shadcn/ui', icon: FaLayerGroup, color: '#06B6D4' },
     { name: 'Git', icon: FaGitAlt, color: '#F05032' },
     { name: 'GitHub', icon: FaGithub, color: '#fff' },
     { name: 'Auth', icon: BiKey, color: '#EDBA27' },

@@ -30,10 +30,10 @@ const Contact = () => {
 
     // EmailJS Dashboard se apni IDs yahan dalein
     emailjs.send(
-      'YOUR_SERVICE_ID', 
-      'YOUR_TEMPLATE_ID', 
+      'service_x76z6br', 
+      'template_d6tjvnb', 
       templateParams, 
-      'YOUR_PUBLIC_KEY'
+      'NQozqap9Tm-eENBxl'
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);

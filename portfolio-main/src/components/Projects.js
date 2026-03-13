@@ -4,37 +4,14 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
-    {
-      title:'Resumix',
-      description: 'Modern portfolio builder',
-      tags:['TypeScript', 'Next', 'Node.js', 'MongoDB'],
-      liveLink:'https://resumix-six.vercel.app/',
-      githubLink:'https://github.com/chinmayjjg/Resumix',
-      image: '/images/resumix.png'
-    },
-    {
-      title: 'Second Brain',
-      description: 'Productivity app for your mind.',
-      tags: ['TypeScript', 'React', 'Node.js', 'MongoDB'],
-      liveLink: 'https://second-brain-client-7tbj.vercel.app/login',
-      githubLink: 'https://github.com/chinmayjjg/second-brain',
-      image: '/images/second-brain.png'
-    },
-    {
-      title: 'AI Ticket System',
-      description: 'Smart support with AI agents.',
-      tags: ['TypeScript', 'React', 'Express', 'AI'],
-      liveLink: null,
-      githubLink: 'https://github.com/chinmayjjg/ai-ticket-management',
-      image: '/images/ai-ticket-management.png'
-    },
+  
     {
       title: 'Weather App',
       description: 'Forecasts with style.',
       tags: ['React', 'API', 'CSS'],
       liveLink: null,
-      githubLink: 'https://github.com/chinmayjjg/weather-',
-      image: '/images/weather-app.png'
+      githubLink: 'https://github.com/Suryanarayandixit/Weather',
+      image: 'weather website.jpeg'
     },
     
   ];
