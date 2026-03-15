@@ -14,6 +14,7 @@ const Projects = () => {
       image: 'weather website.jpeg'
 
     },
+
     {
       title: 'Odisha Tourism Calculator',
       description: "Unlock India's best-kept secret. A smart travel companion to budget and plan your journey through Odisha's iconic heritage sites.",
@@ -23,7 +24,6 @@ const Projects = () => {
       image: 'odisha tourism calculator.jpeg'
     },
  
-  }
  
 ];
 
